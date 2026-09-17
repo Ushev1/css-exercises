@@ -68,7 +68,47 @@ button.cancel {
   color: royalblue;
 }
 
-.modal {
+/* My Solution */
+
+.modal  {
   display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.icon-flex {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding: 10px;
+}
+
+.content-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.125rem;
+  margin: 5px;
+  
+}
+
+.text-flex {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.buttons-flex {
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px;
+  padding: 5px 0;
 }
 
