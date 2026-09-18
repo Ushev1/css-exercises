@@ -30,3 +30,36 @@ input {
 ul {
   list-style-type: none;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.right-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
