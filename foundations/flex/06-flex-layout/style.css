@@ -26,3 +26,7 @@ input {
 }
 
 /* My Solution */
+
+ul {
+  list-style-type: none;
+}
