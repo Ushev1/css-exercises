@@ -30,3 +30,49 @@ body {
 
 /* MY SOLUTION */
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+}
+
+.mid-section {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: 48px;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  height: 200px;
+  width: 250px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
