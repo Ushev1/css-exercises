@@ -52,12 +52,21 @@ body {
 }
 
 .sidebar {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  margin: 0;
   flex-shrink: 0;
+  padding: 16px;
 }
+
+a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
 
 .cards {
   display: flex;
@@ -69,10 +78,18 @@ body {
 
 .card {
   display: flex;
-  height: 200px;
+  height: 207px;
   width: 250px;
   justify-content: center;
   align-items: flex-start;
   padding: 20px;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
